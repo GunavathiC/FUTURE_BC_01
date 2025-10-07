@@ -1,0 +1,28 @@
+## Task 5: Crypto Portfolio Tracker
+
+**Objective:**  
+Created a portfolio tracker that shows live prices and calculates the total value of your cryptocurrency holdings.
+
+Method:
+- Used Google Sheets with `GOOGLEFINANCE` formulas to fetch live prices of Bitcoin, Ethereum, Cardano, etc.
+- Entered the amount owned for each coin.
+- Calculated the current value by multiplying the amount owned with the live price.
+- Summed all values to compute the total portfolio value.
+
+Features: 
+- Live price updates using Google Sheets built-in functions.
+- Easy to modify by adding or removing coins.
+- Automatic calculation of portfolio value in USD.
+
+creenshots: 
+-Portfolio Tracker Screenshot - google sheet 
+
+Usage:
+- Open the Google Sheet to track your crypto holdings.
+- Update the “Amount Owned” column as you buy or sell.
+- Watch your portfolio value update in real-time.
+
+Summary:
+This task helped me learn basic portfolio management and integrating live data using Google Sheets as a simple blockchain tool.
+
+
