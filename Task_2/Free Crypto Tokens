@@ -1,0 +1,32 @@
+## Task 2: Deploy Your Own Token
+
+Solidity Code: 
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+
+contract MyToken is ERC20 {
+    constructor(uint256 initialSupply) ERC20("MyToken", "MTK") {
+        _mint(msg.sender, initialSupply);
+    }
+}
+
+
+Deployment Steps:
+1. Imported OpenZeppelin ERC-20 via Remix `import "@openzeppelin/contracts/token/ERC20/ERC20.sol";`.
+2. Connected MetaMask to Polygon Mumbai/BNB Testnet.
+3. Deployed contract using test MATIC/BNB.
+4. Verified deployment in block explorer.
+
+Screenshots:
+- Smart contract
+- token address
+- MetaMask Confirmation
+
+
+**Observations:**
+- Faced RPC connection issues, fixed by double-checking network settings.
+- Learned the importance of using testnets for safe deployments.
+
+**LinkedIn Post:** [My Token Deployment Experience](LINK_TO_YOUR_POST)
